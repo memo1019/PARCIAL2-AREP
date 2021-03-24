@@ -48,39 +48,31 @@ entonces ve a localhost:34000 para acceder directamente al contenedor del Load B
 
 ***Web-App corriendo localmente con la arquitectura descrita***
 
-![Diagrama de Clases](/image/prueba1cos.png)
-![Diagrama de Clases](/image/prueba1acos.png)
+![Diagrama de Clases](/images/prueba1cos.png)
+![Diagrama de Clases](/images/prueba1acos.png)
 
 ***instancia ejecutada***
 
 
-![Diagrama de Clases](/image/prueba3.png)
+![Diagrama de Clases](/images/prueba3.png)
 
 ***Grupo de seguridad***
 
 
-![Diagrama de Clases](/image/prueba4.png)
+![Diagrama de Clases](/images/prueba4.png)
 
 ***Web-App corriendo en AWS con la arquitectura descrita***
 
 
-![Diagrama de Clases](/imag/prueba2cos.png)
-![Diagrama de Clases](/imag/prueba2acos.png)
+![Diagrama de Clases](/images/prueba2cos.png)
+![Diagrama de Clases](/images/prueba2acos.png)
 
 ***imagenes del docker y contenedores de la instancia de EC2 corriendo con ssh***
 
 
-![Diagrama de Clases](/imagenes/prueba5.png)
+![Diagrama de Clases](/images/prueba5.png)
 
-## Diseño
 
-![Diagrama de Clases](/imagenes/prueba8.png)
-### Diagrama de clases
-#### Load Balancer
-![Diagrama de Clases](/imagenes/prueba7.png)
-
-#### Rest Server
-![Diagrama de Clases](/imagenes/prueba6.png)
 ## Documentacion
 para realizar la documentacion de javadoc use estos comandos y aqui podra llevar acabo el proceso de creacion de esta documentacion.
 ```
