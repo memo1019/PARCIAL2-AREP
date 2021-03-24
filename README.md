@@ -74,7 +74,7 @@ entonces ve a localhost:34000 para acceder directamente al contenedor del Load B
 
 ## Video
 ### AWS EC2 Console: [Full Video On YouTube](https://youtu.be/wpiPijoD4uM)****
-### Browser: [Full Video On YouTube](https://youtu.be/wpiPijoD4uM)****
+### Browser: [Full Video On YouTube](https://youtu.be/eLO9HN3C80s)****
 ## Documentacion
 para realizar la documentacion de javadoc use estos comandos y aqui podra llevar acabo el proceso de creacion de esta documentacion.
 ```
