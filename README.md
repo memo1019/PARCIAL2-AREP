@@ -59,7 +59,7 @@ entonces ve a localhost:34000 para acceder directamente al contenedor del Load B
 ***Grupo de seguridad***
 
 
-![Diagrama de Clases](/images/prueba4.png)
+![Diagrama de Clases](/images/prueba5.png)
 
 ***Web-App corriendo en AWS con la arquitectura descrita***
 
@@ -70,7 +70,7 @@ entonces ve a localhost:34000 para acceder directamente al contenedor del Load B
 ***imagenes del docker y contenedores de la instancia de EC2 corriendo con ssh***
 
 
-![Diagrama de Clases](/images/prueba5.png)
+![Diagrama de Clases](/images/prueba4.png)
 
 
 ## Documentacion
