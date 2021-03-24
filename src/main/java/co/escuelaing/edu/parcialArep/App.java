@@ -1,12 +1,6 @@
 package co.escuelaing.edu.parcialArep;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import org.apache.commons.io.FileUtils;
-
-import java.io.*;
-import java.net.*;
 
 import static spark.Spark.*;
 
@@ -37,7 +31,7 @@ public class App {
         }
 
         /**
-         * Method that returns port service
+         * metodo que retorna los servicios
          * @return int obtiene el intero del puerto que se corre
          */
         public static int getPort() {
