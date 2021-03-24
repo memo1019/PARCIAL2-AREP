@@ -115,23 +115,23 @@ Podemos ver la descripcion del proyecto en este pdf [file](/lab4.pdf) mostrando 
     ***Listar imagenes***
 
       ```sh
-    $ docker images  
-     ```
+      $ docker images  
+      ```
 
-   ***Contruir una imagen de un Dockerfile***
+  ***Contruir una imagen de un Dockerfile***
 
-    ```sh
+     ```sh
     $ docker build -t <myimage> 
-  ```
+     ```
    ***Correr un contenedor***
 
     ```sh
     $ docker run -d -p <localport>:<containerport> --name firstdockercontainer <image> 
   ```
-   ***Correr docker-compose con 3 instancias web***
+   ***Correr docker-compose con 1 instancias web***
 
   ```sh
-    $ docker-compose up -d --scale web=3
+    $ docker-compose up -d --scale web=1
   ```
 
    ***Obtener un shell del contenedor***
