@@ -1,6 +1,6 @@
-# AREP LABORATORIO 5 - TALLER DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
+# AREP PARCIAL 2 AWS
 
-Este taller consiste en crear una arquitectura que contenga un balanceador de carga, 3 nodos que manejen peticiones REST y un nodo que contenga una base de datos mongo. Cada nodo representa un contenedor en Docker.
+se realizo el parcial propuesto de "PARCIAL PRACTICO " con un contenedor en Docker y despliegue en aws.
 
 
 ### PREREQUISITOS
@@ -42,34 +42,35 @@ docker-compose up -d --scale web=3
 Si estás trabajando en una máquina Linux o Mac, [instala docker-compose](https://docs.docker.com/compose/install/).
 En windows, docker-compose ya está en docker desktop.
 
-entonces ve a localhost:34000 para acceder directamente al contenedor del Load Balancer.
-Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:8089 y localhost:8090, pero en AWS EC2 el puerto 8087 era el único oppened para el tráfico.la aplicación seguirá esta arquitectura en AWS(Para más información sobre cómo funcionaba en AWS plese visitar el archivo de documentación):
+entonces ve a localhost:34000 para acceder directamente al contenedor del Load Balancer.la aplicación seguirá esta arquitectura en AWS(Para más información sobre cómo funcionaba en AWS plese visitar el archivo de documentación):
 
 ## Pruebas
 
 ***Web-App corriendo localmente con la arquitectura descrita***
 
-![Diagrama de Clases](/imagenes/prueba1.png)
+![Diagrama de Clases](/image/prueba1cos.png)
+![Diagrama de Clases](/image/prueba1acos.png)
 
 ***instancia ejecutada***
 
 
-![Diagrama de Clases](/imagenes/prueba5.png)
+![Diagrama de Clases](/image/prueba3.png)
 
 ***Grupo de seguridad***
 
 
-![Diagrama de Clases](/imagenes/prueba3.png)
+![Diagrama de Clases](/image/prueba4.png)
 
 ***Web-App corriendo en AWS con la arquitectura descrita***
 
 
-![Diagrama de Clases](/imagenes/prueba2.png)
+![Diagrama de Clases](/imag/prueba2cos.png)
+![Diagrama de Clases](/imag/prueba2acos.png)
 
 ***imagenes del docker y contenedores de la instancia de EC2 corriendo con ssh***
 
 
-![Diagrama de Clases](/imagenes/prueba4.png)
+![Diagrama de Clases](/imagenes/prueba5.png)
 
 ## Diseño
 
