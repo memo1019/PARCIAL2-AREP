@@ -17,25 +17,22 @@ Los prerrequisitos que manejaremos para lograr con exito el desarrollo del labor
  vemos las imagenes en las siguientes webs:
 
 - Web:
-    https://hub.docker.com/repository/docker/memo1019/labarep05
-- Balancer:
-    https://hub.docker.com/repository/docker/memo1019/webdocker
+    https://hub.docker.com/repository/docker/memo1019/parcial2arep
 
 
 ### Ejecucion e instalacion
 se debe clonar el proyecto con el siguiente comando:
 
 ```
-git clone https://github.com/memo1019/LAB04-AREP
+git clone https://github.com/memo1019/PARCIAL2-AREP
 ```
 luego ingresaremos a la carpeta dede el cmd o la consola:
 ```
-cd /Lab05-AREP
+cd /PARCIAL2-AREP
 ```
 Finalmente coonstruiremos y compilaremos el proyecto para asi poder ejecutarlo.
 ```
- docker pull memo1019/arep5balancer:latest
- docker pull memo1019/arep5web:latest
+ docker pull memo1019/parcial2arep:latest
 ```
 
 Si desea ejecutar los contenedores directamente desde las imágenes de DockerHub, ejecute el siguiente comando:
@@ -45,7 +42,7 @@ docker-compose up -d --scale web=3
 Si estás trabajando en una máquina Linux o Mac, [instala docker-compose](https://docs.docker.com/compose/install/).
 En windows, docker-compose ya está en docker desktop.
 
-entonces ve a localhost:8087 para acceder directamente al contenedor del Load Balancer.
+entonces ve a localhost:34000 para acceder directamente al contenedor del Load Balancer.
 Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:8089 y localhost:8090, pero en AWS EC2 el puerto 8087 era el único oppened para el tráfico.la aplicación seguirá esta arquitectura en AWS(Para más información sobre cómo funcionaba en AWS plese visitar el archivo de documentación):
 
 ## Pruebas
